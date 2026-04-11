@@ -3,7 +3,7 @@
 The CLI for the open agent skills ecosystem.
 
 <!-- agent-list:start -->
-Supports **OpenCode**, **Claude Code**, **Codex**, **Cursor**, and [39 more](#available-agents).
+Supports **OpenCode**, **Claude Code**, **Codex**, **Cursor**, and [41 more](#available-agents).
 <!-- agent-list:end -->
 
 ## Install a Skill
@@ -212,6 +212,7 @@ Skills can be installed to any of these agents:
 | Amp, Kimi Code CLI, Replit, Universal | `amp`, `kimi-cli`, `replit`, `universal` | `.agents/skills/` | `~/.config/agents/skills/` |
 | Antigravity | `antigravity` | `.agents/skills/` | `~/.gemini/antigravity/skills/` |
 | Augment | `augment` | `.augment/skills/` | `~/.augment/skills/` |
+| IBM Bob | `bob` | `.bob/skills/` | `~/.bob/skills/` |
 | Claude Code | `claude-code` | `.claude/skills/` | `~/.claude/skills/` |
 | OpenClaw | `openclaw` | `skills/` | `~/.openclaw/skills/` |
 | Cline, Warp | `cline`, `warp` | `.agents/skills/` | `~/.agents/skills/` |
@@ -224,6 +225,7 @@ Skills can be installed to any of these agents:
 | Cursor | `cursor` | `.agents/skills/` | `~/.cursor/skills/` |
 | Deep Agents | `deepagents` | `.agents/skills/` | `~/.deepagents/agent/skills/` |
 | Droid | `droid` | `.factory/skills/` | `~/.factory/skills/` |
+| Firebender | `firebender` | `.agents/skills/` | `~/.firebender/skills/` |
 | Gemini CLI | `gemini-cli` | `.agents/skills/` | `~/.gemini/skills/` |
 | GitHub Copilot | `github-copilot` | `.agents/skills/` | `~/.copilot/skills/` |
 | Goose | `goose` | `.goose/skills/` | `~/.config/goose/skills/` |
@@ -319,6 +321,7 @@ The CLI searches for skills in these locations within a repository:
 - `skills/.system/`
 - `.agents/skills/`
 - `.augment/skills/`
+- `.bob/skills/`
 - `.claude/skills/`
 - `./skills/`
 - `.codebuddy/skills/`
@@ -433,6 +436,7 @@ Telemetry is automatically disabled in CI environments.
 - [Command Code Skills Documentation](https://commandcode.ai/docs/skills)
 - [Crush Skills Documentation](https://github.com/charmbracelet/crush?tab=readme-ov-file#agent-skills)
 - [Cursor Skills Documentation](https://cursor.com/docs/context/skills)
+- [Firebender Skills Documentation](https://docs.firebender.com/multi-agent/skills)
 - [Gemini CLI Skills Documentation](https://geminicli.com/docs/cli/skills/)
 - [GitHub Copilot Agent Skills](https://docs.github.com/en/copilot/concepts/agents/about-agent-skills)
 - [iFlow CLI Skills Documentation](https://platform.iflow.cn/en/cli/examples/skill)
